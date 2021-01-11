@@ -1,26 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>ScratchAddons Redirect</title>
-		<link rel="favorite icon" href="https://scratchaddons.com/assets/images/icon.svg"
-			  type="img/svg">
-		<style>
-			p {
-				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-			}
-		</style>
-	</head>
-
-	<body>
-		<p>You will be redirected to <a id="link"
-			   href="https://scratchaddons.com">https://scratchaddons.com</a> shortly. If you are not, try clicking that link and/or enabling JavaScript.</p>
-		<script>
-			document.getElementById("link").href = window.location.href.replace("github.io", "com")
-			window.location.href = window.location.href.replace("github.io", "com")
-		</script>
-	</body>
-
-</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="refresh" content="1;url=https://scratchaddons.com/" />
+<style>* {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;}</style>
+<p>You will be redirected to <a id="link" href="https://scratchaddons.com">https://scratchaddons.com</a> shortly.</p>
+<script>window.location.href = window.location.href.replace("github.io", "com")</script>
